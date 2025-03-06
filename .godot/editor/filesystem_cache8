@@ -1,0 +1,125 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1741144801
+export_presets.cfg::TextFile::-1::1741081999::0::1::::<><>::
+icon.svg::CompressedTexture2D::2403947865284682714::1740766990::1740766995::1::::<><>::
+::res://Assets/::1740989520
+Journey Across the Blue.ogg::AudioStreamOggVorbis::1525382104272316544::1688071450::1740965228::1::::<><>::
+::res://Assets/Scenes/::1741146186
+main.tscn::PackedScene::7577641742889022922::1741146139::0::1::::<><>::uid://whgbqbi7tttw::::res://Assets/Sprites/Maps/Beach.png<>uid://u5w1d15x2h10::::res://Assets/Sprites/Maps/Birch 1.png<>uid://dyjwm57kgrfy8::::res://Assets/Sprites/Maps/Birch 2.png<>uid://bytkpqb0v47qt::::res://Assets/Sprites/Maps/Castle 1.png<>uid://2a8vujxqco55::::res://Assets/Sprites/Maps/Castle 2.png<>uid://dgh8fjuw175cw::::res://Assets/Sprites/Maps/Clearing 1.png<>uid://cph3ismlrm3h4::::res://Assets/Sprites/Maps/Dark 1.png<>uid://bpf4dpwfojmpj::::res://Assets/Sprites/TX Tileset Ground.png<>uid://di0eobc6x8xsm::::res://Assets/Sprites/TX Village Props.png<>uid://cjhwmvl7eiswj::::res://Assets/Scenes/star.tscn<>uid://dycr6wuf1dp2k::::res://Assets/Scenes/player.tscn<>uid://dcx08x5j8rau::::res://Assets/Sprites/Asset 5 - 1080p.png<>uid://b887vmufxwkyc::::res://Assets/Sprites/Coin.png<>uid://bea08x3bfa8a0::::res://Assets/Sprites/Kurland-Regular.otf<>uid://vy525m4bqwo3::::res://Assets/Journey Across the Blue.ogg<>res://Assets/Scripts/gamesound.gd
+main_menu.tscn::PackedScene::6420215649466040865::1741146140::0::1::::<><>::res://Assets/Scripts/main_menu.gd<>uid://msbrxvixlf3q::::res://Assets/Sprites/MainMenu/Super-Nashi-Jump-menu-2.png<>uid://bea08x3bfa8a0::::res://Assets/Sprites/Kurland-Regular.otf
+player.tscn::PackedScene::8849011789060131124::1741146139::0::1::::<><>::res://Assets/Scripts/player.gd<>uid://db0oxigwn4v6v::::res://Assets/Sprites/PlayerAnim/Idle.png<>uid://c2aijho04jjlb::::res://Assets/Sprites/PlayerAnim/Jump.png<>uid://cyuvtrla54a67::::res://Assets/Sprites/PlayerAnim/Run.png<>uid://ccgpd1tuqaf7g::::res://Assets/Sprites/Jump2.wav
+star.tscn::PackedScene::5420349929217449469::1741146186::0::1::::<><>::res://Assets/Scripts/star.gd<>uid://l2xiedkdvnpc::::res://Assets/Sprites/Bananas.png<>uid://gyxdyeotqv8v::::res://Assets/Sprites/Collectable_04.wav
+::res://Assets/Scripts/::1741129708
+gamesound.gd::GDScript::-1::1740813506::0::1::::<>AudioStreamPlayer<>::
+main_menu.gd::GDScript::-1::1741117919::0::1::::<>Control<>::
+player.gd::GDScript::-1::1741125847::0::1::::<>CharacterBody2D<>::
+star.gd::GDScript::-1::1741125679::0::1::::<>Area2D<>::
+::res://Assets/Sprites/::1741146263
+Asset 5 - 1080p.png::CompressedTexture2D::216138192280930544::315550800::1741032309::1::::<><>::
+Banana.png::CompressedTexture2D::28143497191535867::1619605708::1741066636::1::::<><>::
+Bananas.png::CompressedTexture2D::829226471749856012::1566495756::1741143488::1::::<><>::
+Coin.png::CompressedTexture2D::4772758096507751962::1685665238::1741035994::1::::<><>::
+coin_.png::CompressedTexture2D::5658157621720710026::1674500508::1741056077::1::::<><>::
+Collectable_04.wav::AudioStreamWAV::472081243542734011::1721073046::1741146116::1::::<><>::
+Jump2.wav::AudioStreamWAV::4926522829348321562::1735593970::1740952180::1::::<><>::
+Jump_20.wav::AudioStreamWAV::2624181657116039263::1589680451::1741146265::1::::<><>::
+Kurland-Regular.otf::FontFile::2668754165606985997::1735537550::1741035268::1::::<><>::
+Pickup_Coin2.wav::AudioStreamWAV::3375077275034544620::1735539824::1740947044::1::::<><>::
+TX Tileset Ground.png::CompressedTexture2D::3451342199288031103::1679856260::1740878947::1::::<><>::
+TX Village Props.png::CompressedTexture2D::7772650170174308132::1683053386::1740878947::1::::<><>::
+::res://Assets/Sprites/MainMenu/::1741139964
+Asset 5 - 1080p.png::CompressedTexture2D::7493895096815457345::315550800::1741139203::1::::<><>::
+Asset 8 - 1080p.png::CompressedTexture2D::332683975353974376::315550800::1741139203::1::::<><>::
+Asset 12 - 1080p.png::CompressedTexture2D::3376167909509813005::315550800::1741139203::1::::<><>::
+Super-Nashi-Jump-menu-2.png::CompressedTexture2D::879517239591218532::1741139813::1741139856::1::::<><>::
+::res://Assets/Sprites/Maps/::1741054447
+Beach 7.png::CompressedTexture2D::9164912938977160254::1671896614::1741054447::1::::<><>::
+Beach.png::CompressedTexture2D::1558972134391056832::1660320050::1741019626::1::::<><>::
+Birch 1.png::CompressedTexture2D::1467090608994664369::1660310958::1741019626::1::::<><>::
+Birch 2.png::CompressedTexture2D::8863732527143632013::1660319294::1741019626::1::::<><>::
+Bridge 3.png::CompressedTexture2D::662040609622284077::1662379882::1741053008::1::::<><>::
+Castle 1.png::CompressedTexture2D::4110810908252784843::1660320576::1741019626::1::::<><>::
+Castle 2.png::CompressedTexture2D::1897141006096905090::1660409402::1741019626::1::::<><>::
+Castle 3.png::CompressedTexture2D::6231526705758771562::1660418590::1741019626::1::::<><>::
+Castle 4.png::CompressedTexture2D::7766628359218538711::1660508812::1741019626::1::::<><>::
+Castle 6.png::CompressedTexture2D::4023168323495006192::1660508756::1741019626::1::::<><>::
+Castle Ballroom.png::CompressedTexture2D::8414804022061348488::1660508764::1741019626::1::::<><>::
+Castle Gardens.png::CompressedTexture2D::75988918849902464::1660508898::1741019626::1::::<><>::
+Castle Hallway.png::CompressedTexture2D::1432422835325048173::1660321148::1741019626::1::::<><>::
+Castle Prison.png::CompressedTexture2D::6571935641335967319::1660416546::1741019626::1::::<><>::
+Castle Road.png::CompressedTexture2D::2969222493628438324::1660310474::1741019626::1::::<><>::
+Castle Ruins 1.png::CompressedTexture2D::3201226006606309069::1660508906::1741019626::1::::<><>::
+Castle Ruins 2.png::CompressedTexture2D::6482152705616771999::1660508902::1741019626::1::::<><>::
+Castle Staircase 2.png::CompressedTexture2D::7565841047494572031::1660310578::1741019625::1::::<><>::
+Castle Throne Room 1.png::CompressedTexture2D::8517959487285837635::1660310604::1741019625::1::::<><>::
+Castle Throne Room 2.png::CompressedTexture2D::3376530130028850702::1660320464::1741019625::1::::<><>::
+Castle Tower.png::CompressedTexture2D::5929143437931571009::1660508784::1741019625::1::::<><>::
+City 4.png::CompressedTexture2D::7911826675769368276::1662382128::1741052605::1::::<><>::
+Clearing 1.png::CompressedTexture2D::7596858851558589874::1660310446::1741019625::1::::<><>::
+Clearing 3.png::CompressedTexture2D::3909847357028720509::1660310706::1741019625::1::::<><>::
+Clearing 4.png::CompressedTexture2D::2359672942283021540::1660310432::1741019625::1::::<><>::
+Clearing 5.png::CompressedTexture2D::849495105422220620::1660310814::1741019625::1::::<><>::
+Clearing 6.png::CompressedTexture2D::560310960516129355::1660310810::1741019625::1::::<><>::
+Cottage 1.png::CompressedTexture2D::6201210693172519125::1660319804::1741019628::1::::<><>::
+Cottage Library 1.png::CompressedTexture2D::7221861796527683027::1660321204::1741019627::1::::<><>::
+Cottage Table 3.png::CompressedTexture2D::7369631189289186138::1660320986::1741019627::1::::<><>::
+Dark 1.png::CompressedTexture2D::5841839992864773707::1660319254::1741019627::1::::<><>::
+Dark 2.png::CompressedTexture2D::2171354873960688067::1660319660::1741019627::1::::<><>::
+Dark 3.png::CompressedTexture2D::6968012958803008589::1660319462::1741019627::1::::<><>::
+Dark 4.png::CompressedTexture2D::5397891826277023066::1660319366::1741019627::1::::<><>::
+Dark 5.png::CompressedTexture2D::668849688805563352::1660310750::1741019627::1::::<><>::
+Dark 6.png::CompressedTexture2D::2259309902511089551::1660311444::1741019627::1::::<><>::
+Dark 7.png::CompressedTexture2D::2937715734202103238::1660310776::1741019627::1::::<><>::
+Fields 2.png::CompressedTexture2D::6023844388665342007::1660319706::1741019627::1::::<><>::
+Fields 3.png::CompressedTexture2D::1710206655091379987::1660310840::1741019627::1::::<><>::
+Fire 1.png::CompressedTexture2D::7112042682590765129::1660310738::1741019627::1::::<><>::
+Fire 2.png::CompressedTexture2D::4503161027965576832::1660310742::1741019626::1::::<><>::
+Gold 2.png::CompressedTexture2D::6537408645451150362::1660310922::1741019623::1::::<><>::
+Mountain 2.png::CompressedTexture2D::1915411351137685008::1660960870::1741019623::1::::<><>::
+Mushrooms 1.png::CompressedTexture2D::8883888924202307644::1660960866::1741019623::1::::<><>::
+Mushrooms 2.png::CompressedTexture2D::7642760680310320677::1660960868::1741019623::1::::<><>::
+Path 1.png::CompressedTexture2D::4667282722526819965::1660310438::1741019623::1::::<><>::
+Path 2.png::CompressedTexture2D::3759476686012863106::1660310682::1741019622::1::::<><>::
+Path 5.png::CompressedTexture2D::4408922693320504461::1660310196::1741019622::1::::<><>::
+Path 6.png::CompressedTexture2D::825413885060335293::1660319738::1741019622::1::::<><>::
+Path 7.png::CompressedTexture2D::9209742117228611562::1660310458::1741019622::1::::<><>::
+Pink 1.png::CompressedTexture2D::8251503082958434757::1660320066::1741019622::1::::<><>::
+Pink 2.png::CompressedTexture2D::1333041462088839806::1660402064::1741019622::1::::<><>::
+Purple 1.png::CompressedTexture2D::8253000977297537202::1660310934::1741019622::1::::<><>::
+Purple 3.png::CompressedTexture2D::2057779566636777198::1660310938::1741019622::1::::<><>::
+Ruins 1.png::CompressedTexture2D::299716335370086539::1660310988::1741019622::1::::<><>::
+Ruins 2.png::CompressedTexture2D::1577227285622555487::1660310982::1741019622::1::::<><>::
+Ruins 3.png::CompressedTexture2D::8976987977316747013::1660310600::1741019622::1::::<><>::
+Ruins 4.png::CompressedTexture2D::6519283191565280345::1660310162::1741019622::1::::<><>::
+Ruins 5.png::CompressedTexture2D::2341429734107656216::1660310168::1741019622::1::::<><>::
+Ruins 6.png::CompressedTexture2D::2472235957557680652::1660320072::1741019622::1::::<><>::
+Ruins 7.png::CompressedTexture2D::2569194721844369640::1660320086::1741019622::1::::<><>::
+Snow 1.png::CompressedTexture2D::91551174245037936::1660310966::1741019622::1::::<><>::
+Snow 2.png::CompressedTexture2D::8645338512074925527::1660310962::1741019625::1::::<><>::
+Snow 3.png::CompressedTexture2D::6544724362986430034::1660319696::1741019624::1::::<><>::
+Snow 4.png::CompressedTexture2D::7124034279952582498::1660961102::1741019624::1::::<><>::
+Tower.png::CompressedTexture2D::5841973444267635497::1660318812::1741019625::1::::<><>::
+Trees 1.png::CompressedTexture2D::6208117313554397728::1660320266::1741019625::1::::<><>::
+Trees 2.png::CompressedTexture2D::8335228521806736409::1660310904::1741019625::1::::<><>::
+Trees 3.png::CompressedTexture2D::6755989418770975579::1660320274::1741019624::1::::<><>::
+Trees 5.png::CompressedTexture2D::4320479498428948231::1660310944::1741019624::1::::<><>::
+Trees 6.png::CompressedTexture2D::2033564399782910886::1660310882::1741019624::1::::<><>::
+Trees 7.png::CompressedTexture2D::3358666616460138628::1660310954::1741019624::1::::<><>::
+Village 4.png::CompressedTexture2D::7916733842404753044::1660365818::1741019624::1::::<><>::
+Village 5.png::CompressedTexture2D::1305824367460425610::1660421166::1741019624::1::::<><>::
+Village 6.png::CompressedTexture2D::6937903658743858936::1660961600::1741019624::1::::<><>::
+Village 7.png::CompressedTexture2D::4679857135978223108::1660961596::1741019624::1::::<><>::
+Village Inn.png::CompressedTexture2D::5256049283612300329::1660508754::1741019624::1::::<><>::
+Village Shop.png::CompressedTexture2D::2653299903223974367::1660407586::1741019624::1::::<><>::
+Village Tavern 1.png::CompressedTexture2D::1790180929735853242::1660421148::1741019623::1::::<><>::
+Village Tavern 2.png::CompressedTexture2D::9087017347783968042::1660419522::1741019623::1::::<><>::
+Water Lake 2.png::CompressedTexture2D::4008960962812733108::1660320184::1741019623::1::::<><>::
+Water River 1.png::CompressedTexture2D::6766086889860815147::1660310412::1741019623::1::::<><>::
+Water River 2.png::CompressedTexture2D::8923198912513356221::1660310408::1741019623::1::::<><>::
+Water River 3.png::CompressedTexture2D::920296892747001249::1660320228::1741019623::1::::<><>::
+Water Stream.png::CompressedTexture2D::1486067404818539536::1660401208::1741019623::1::::<><>::
+Waterfall 1.png::CompressedTexture2D::3124749750059254381::1660320290::1741019623::1::::<><>::
+::res://Assets/Sprites/PlayerAnim/::1741064567
+Idle.png::CompressedTexture2D::7281951880201117567::1619603861::1741064567::1::::<><>::
+Jump.png::CompressedTexture2D::6668442344166068947::1619603993::1741064567::1::::<><>::
+Run.png::CompressedTexture2D::6499971066643495622::1619603951::1741064567::1::::<><>::

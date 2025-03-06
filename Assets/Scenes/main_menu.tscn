@@ -1,0 +1,52 @@
+[gd_scene load_steps=4 format=3 uid="uid://cxqaap5dhcl18"]
+
+[ext_resource type="Script" uid="uid://bifmrxcevriyn" path="res://Assets/Scripts/main_menu.gd" id="1_rohn0"]
+[ext_resource type="Texture2D" uid="uid://db176c7knnva1" path="res://Assets/Sprites/MainMenu/Nashi_Jungle_Jump_Start_Menu.png" id="2_cbhea"]
+[ext_resource type="FontFile" uid="uid://c3kgg01yof5so" path="res://Assets/Sprites/MonsterFriendFore.otf" id="2_fsbqx"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchor_right = 6.585
+anchor_bottom = 6.705
+offset_right = 0.0795898
+offset_bottom = 0.159668
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_rohn0")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1153.0
+offset_bottom = 649.0
+texture = ExtResource("2_cbhea")
+expand_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 488.0
+offset_top = 245.0
+offset_right = 673.0
+offset_bottom = 454.0
+alignment = 1
+
+[node name="PlayButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_fsbqx")
+theme_override_font_sizes/font_size = 38
+text = "Start"
+
+[node name="ExitButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_fsbqx")
+theme_override_font_sizes/font_size = 38
+text = "Exit"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 931.0
+offset_top = 588.0
+offset_right = 1133.0
+offset_bottom = 621.0
+theme_override_fonts/normal_font = ExtResource("2_fsbqx")
+theme_override_font_sizes/normal_font_size = 24
+text = "ver. 0.2.0"

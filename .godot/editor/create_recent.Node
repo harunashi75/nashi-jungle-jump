@@ -1,0 +1,14 @@
+Node
+Node2D
+CharacterBody2D
+CollisionShape2D
+Camera2D
+Control
+CanvasLayer
+Button
+TextureRect
+RichTextLabel
+TextureButton
+VBoxContainer
+TileMapLayer
+Sprite2D
