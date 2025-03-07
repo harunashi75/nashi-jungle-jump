@@ -5,13 +5,13 @@ extends Control
 
 func _ready():
 	play_button.pressed.connect(_on_play_pressed)
-	exit_button.pressed.connect(_on_exit_pressed)
+	exit_button.pressed.connect(_on_quit_pressed)
 
 func _process(_delta):
-	if Input.is_action_just_pressed("play_button"):
+	if Input.is_action_just_pressed("play"):
 		_on_play_pressed()
-	elif Input.is_action_just_pressed("exit_button"):
-		_on_exit_pressed()
+	elif Input.is_action_just_pressed("quit"):
+		_on_quit_pressed()
 
 func _on_play_pressed():
 	print("Play button pressed!")  # Vérifie si ça s'affiche dans la console
@@ -19,6 +19,6 @@ func _on_play_pressed():
 	if err != OK:
 		print("Erreur de chargement de la scène du jeu ! Vérifie le chemin.")
 
-func _on_exit_pressed():
-	print("Exit button pressed!")  # Vérifie si ça s'affiche dans la console
+func _on_quit_pressed():
+	print("Quit button pressed!")  # Vérifie si ça s'affiche dans la console
 	get_tree().quit()

@@ -14,6 +14,7 @@ var total_bananas: int = 30  # Nombre total de bananes à collecter
 @onready var sprite = $AnimatedSprite2D
 @onready var banana_label = $"/root/Main/UI/BananaCount"
 @onready var jump_sound = $JumpSound
+@onready var pause_menu = $"/root/Main/Game/PauseMenu"
 
 func _ready():
 	# Connexion des bananes au signal de collecte
@@ -77,3 +78,7 @@ func _on_banana_collected():
 # 📌 Condition de victoire
 func win_game():
 	print("Félicitations ! Tu as gagné ! ")
+
+func _input(event):
+	if event.is_action_pressed("pause_menu"):  # Touche ESC
+		pause_menu.toggle_pause()

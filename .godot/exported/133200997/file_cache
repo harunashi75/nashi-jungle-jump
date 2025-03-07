@@ -1,4 +1,5 @@
-res://Assets/Scenes/player.tscn::75dc6de9c5e7727d9d2c77a52cb0327b::1741277023::res://.godot/exported/133200997/export-9601e669bb72ca6c9a318a4e4b8c44f2-player.scn
-res://Assets/Scenes/main_menu.tscn::b4616de297fc572cec10e8ea13e6b560::1741286034::res://.godot/exported/133200997/export-af9515579ca2712481c0a4a759d37dfa-main_menu.scn
-res://Assets/Scenes/main.tscn::a7bb2dc19f8be8650e754992a9950547::1741277023::res://.godot/exported/133200997/export-8b8120442f2450b0bc73d4fa0ff4705a-main.scn
-res://Assets/Scenes/banana.tscn::c4e934361fae48c8bd60c07967cc04c1::1741277023::res://.godot/exported/133200997/export-8f1fb733563913ce06f365c1ae233098-banana.scn
+res://Assets/Scenes/player.tscn::75dc6de9c5e7727d9d2c77a52cb0327b::1741377298::res://.godot/exported/133200997/export-9601e669bb72ca6c9a318a4e4b8c44f2-player.scn
+res://Assets/Scenes/main_menu.tscn::c7c4326d4cff01d683fefac60178cf1c::1741377298::res://.godot/exported/133200997/export-af9515579ca2712481c0a4a759d37dfa-main_menu.scn
+res://Assets/Scenes/main.tscn::6fcbe22635f12882ed0d798cfc600223::1741377298::res://.godot/exported/133200997/export-8b8120442f2450b0bc73d4fa0ff4705a-main.scn
+res://Assets/Scenes/banana.tscn::c4e934361fae48c8bd60c07967cc04c1::1741377298::res://.godot/exported/133200997/export-8f1fb733563913ce06f365c1ae233098-banana.scn
+res://Assets/Scenes/pause_menu.tscn::197840e78ec64a6e01d5df7fcad6bd90::1741377298::res://.godot/exported/133200997/export-634e3944235b1dc028c25a12c76e6d6c-pause_menu.scn
