@@ -8,7 +8,7 @@ var jumps_left = max_jumps
 
 # Gestion des bananes
 var banana_count: int = 0
-var total_bananas: int = 30  # Nombre total de bananes à collecter
+var total_bananas: int = 33  # Nombre total de bananes à collecter
 
 # Références aux nœuds
 @onready var sprite = $AnimatedSprite2D
