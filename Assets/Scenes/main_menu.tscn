@@ -20,25 +20,25 @@ offset_bottom = 649.0
 texture = ExtResource("2_cbhea")
 expand_mode = 1
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
-layout_mode = 0
-offset_left = 488.0
-offset_top = 245.0
-offset_right = 673.0
-offset_bottom = 454.0
-alignment = 1
-
-[node name="PlayButton" type="Button" parent="VBoxContainer"]
+[node name="PlayButton" type="Button" parent="."]
 layout_mode = 2
+offset_left = 425.0
+offset_top = 267.0
+offset_right = 738.0
+offset_bottom = 314.0
 theme_override_fonts/font = ExtResource("2_fsbqx")
 theme_override_font_sizes/font_size = 38
 text = "Start"
 
-[node name="ExitButton" type="Button" parent="VBoxContainer"]
+[node name="ExitButton" type="Button" parent="."]
 layout_mode = 2
+offset_left = 425.0
+offset_top = 330.0
+offset_right = 738.0
+offset_bottom = 377.0
 theme_override_fonts/font = ExtResource("2_fsbqx")
 theme_override_font_sizes/font_size = 38
-text = "Exit"
+text = "Quit"
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 layout_mode = 0
@@ -49,3 +49,12 @@ offset_bottom = 621.0
 theme_override_fonts/normal_font = ExtResource("2_fsbqx")
 theme_override_font_sizes/normal_font_size = 24
 text = "ver. 0.4.0"
+
+[node name="VolumeSlider" type="HSlider" parent="."]
+layout_mode = 0
+offset_left = 417.0
+offset_top = 375.0
+offset_right = 748.0
+offset_bottom = 445.0
+max_value = 1.0
+step = 0.05

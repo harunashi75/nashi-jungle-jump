@@ -3755,7 +3755,7 @@ position = Vector2(-23, -704)
 position = Vector2(220, -825)
 
 [node name="Banana4" parent="Game/Bananas" instance=ExtResource("11_akpqr")]
-position = Vector2(-264, -1192)
+position = Vector2(-230, -1203)
 
 [node name="Banana5" parent="Game/Bananas" instance=ExtResource("11_akpqr")]
 position = Vector2(264, -1518)
@@ -3818,7 +3818,7 @@ position = Vector2(-247, -7814)
 position = Vector2(153, -7995)
 
 [node name="Banana25" parent="Game/Bananas" instance=ExtResource("11_akpqr")]
-position = Vector2(-261, -8195)
+position = Vector2(-234, -8171)
 
 [node name="Banana26" parent="Game/Bananas" instance=ExtResource("11_akpqr")]
 position = Vector2(264, -8475)
@@ -3869,7 +3869,6 @@ theme_override_font_sizes/normal_font_size = 24
 
 [node name="GameSound" type="AudioStreamPlayer" parent="Audio"]
 stream = ExtResource("16_5i2kr")
-volume_db = -15.0
 autoplay = true
 parameters/looping = true
 script = ExtResource("17_rgcsa")

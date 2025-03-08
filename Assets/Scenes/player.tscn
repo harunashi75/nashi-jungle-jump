@@ -258,4 +258,3 @@ zoom = Vector2(2, 2)
 
 [node name="JumpSound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_v0a7k")
-volume_db = -15.0
