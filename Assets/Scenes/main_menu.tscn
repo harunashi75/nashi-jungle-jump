@@ -22,39 +22,30 @@ expand_mode = 1
 
 [node name="PlayButton" type="Button" parent="."]
 layout_mode = 2
-offset_left = 425.0
-offset_top = 267.0
-offset_right = 738.0
-offset_bottom = 314.0
+offset_left = 412.0
+offset_top = 284.0
+offset_right = 725.0
+offset_bottom = 331.0
 theme_override_fonts/font = ExtResource("2_fsbqx")
 theme_override_font_sizes/font_size = 38
 text = "Start"
 
 [node name="ExitButton" type="Button" parent="."]
 layout_mode = 2
-offset_left = 425.0
-offset_top = 330.0
-offset_right = 738.0
-offset_bottom = 377.0
+offset_left = 412.0
+offset_top = 347.0
+offset_right = 725.0
+offset_bottom = 394.0
 theme_override_fonts/font = ExtResource("2_fsbqx")
 theme_override_font_sizes/font_size = 38
 text = "Quit"
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 layout_mode = 0
-offset_left = 931.0
-offset_top = 588.0
-offset_right = 1133.0
-offset_bottom = 621.0
+offset_left = 1006.0
+offset_top = 600.0
+offset_right = 1208.0
+offset_bottom = 633.0
 theme_override_fonts/normal_font = ExtResource("2_fsbqx")
 theme_override_font_sizes/normal_font_size = 24
-text = "ver. 0.4.0"
-
-[node name="VolumeSlider" type="HSlider" parent="."]
-layout_mode = 0
-offset_left = 417.0
-offset_top = 375.0
-offset_right = 748.0
-offset_bottom = 445.0
-max_value = 1.0
-step = 0.05
+text = "v0.4.0"
