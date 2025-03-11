@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://cxqaap5dhcl18"]
 
 [ext_resource type="Script" uid="uid://bifmrxcevriyn" path="res://Assets/Scripts/main_menu.gd" id="1_rohn0"]
-[ext_resource type="Texture2D" uid="uid://db176c7knnva1" path="res://Assets/Sprites/MainMenu/Nashi_Jungle_Jump_Start_Menu.png" id="2_cbhea"]
+[ext_resource type="Texture2D" uid="uid://bf6bkh5aeqawa" path="res://Assets/Sprites/MainMenu/nashi_jump_startmenu (1).png" id="2_cbhea"]
 [ext_resource type="FontFile" uid="uid://c3kgg01yof5so" path="res://Assets/Sprites/MonsterFriendFore.otf" id="2_fsbqx"]
 
 [node name="MainMenu" type="Control"]
@@ -19,6 +19,17 @@ offset_right = 1153.0
 offset_bottom = 649.0
 texture = ExtResource("2_cbhea")
 expand_mode = 1
+
+[node name="GameName" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 192.0
+offset_top = 154.0
+offset_right = 963.0
+offset_bottom = 275.0
+theme_override_fonts/normal_font = ExtResource("2_fsbqx")
+theme_override_font_sizes/normal_font_size = 45
+text = "Nashi Jungle Jump"
+horizontal_alignment = 1
 
 [node name="PlayButton" type="Button" parent="."]
 layout_mode = 2
@@ -48,4 +59,4 @@ offset_right = 1208.0
 offset_bottom = 633.0
 theme_override_fonts/normal_font = ExtResource("2_fsbqx")
 theme_override_font_sizes/normal_font_size = 24
-text = "v0.4.0"
+text = "v0.4.1"

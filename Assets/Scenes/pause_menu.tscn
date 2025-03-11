@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://b1r068wojs3es"]
 
-[ext_resource type="Script" uid="uid://c2jpp32mckrhm" path="res://Assets/Scenes/pause_menu.gd" id="1_jbhf4"]
+[ext_resource type="Script" uid="uid://c2jpp32mckrhm" path="res://Assets/Scripts/pause_menu.gd" id="1_jbhf4"]
 [ext_resource type="FontFile" uid="uid://c3kgg01yof5so" path="res://Assets/Sprites/MonsterFriendFore.otf" id="2_6udtp"]
 
 [node name="PauseMenu" type="Control"]
@@ -66,6 +66,7 @@ theme_override_fonts/font = ExtResource("2_6udtp")
 text = "Quit"
 
 [node name="VolumeSlider" type="HSlider" parent="."]
+layout_mode = 0
 offset_left = 407.0
 offset_top = 382.0
 offset_right = 738.0

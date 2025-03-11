@@ -1,8 +1,8 @@
+RichTextLabel
+Button
 HSlider
 VSlider
-Button
 VBoxContainer
-RichTextLabel
 Panel
 Node
 Node2D
