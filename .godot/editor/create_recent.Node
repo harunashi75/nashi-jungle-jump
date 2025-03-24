@@ -1,5 +1,7 @@
-RichTextLabel
+AnimationTree
+AnimationPlayer
 Button
+RichTextLabel
 HSlider
 VSlider
 VBoxContainer
@@ -11,4 +13,3 @@ CollisionShape2D
 Camera2D
 Control
 CanvasLayer
-TextureRect

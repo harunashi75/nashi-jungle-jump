@@ -51,12 +51,23 @@ func _handle_movement():
 	var direction = Input.get_axis("move_left", "move_right")
 
 	if direction:
-		velocity.x = direction * 200  # Vitesse de déplacement
-		sprite.play("run")
+		velocity.x = direction * 200  # Permet de bouger même en l'air
 		sprite.flip_h = (direction < 0)
+	
 	else:
 		velocity.x = move_toward(velocity.x, 0, 20)
-		sprite.play("idle")
+
+	# Gérer les animations correctement
+	if not is_on_floor():  
+		if velocity.y < 0:
+			sprite.play("jump")  # Animation de saut
+		else:
+			sprite.play("fall")  # Animation de chute
+	else:
+		if direction:
+			sprite.play("run")
+		else:
+			sprite.play("idle")
 
 # 📌 Ajoute une étoile et met à jour l'affichage
 func add_banana(value: int):

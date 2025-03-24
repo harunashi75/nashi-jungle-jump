@@ -1,22 +1,22 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1741874154
-export_presets.cfg::TextFile::-1::1741712141::0::1::::<><><>0<>0<><>::
+::res://::1742791567
+export_presets.cfg::TextFile/TextFile::-1::1741712141::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::7595686591154158837::1741295186::1741641182::1::::<><><>0<>0<>e37c7bbb63b30773f5df9354ad671440<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://Assets/::1741641618
 Journey Across the Blue.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::1525382104272316544::1741295186::1741295186::1::::<><><>0<>0<>334d1676d676e7a56be8473be223e323<>res://.godot/imported/Journey Across the Blue.ogg-d3d4d577a30473829e0d2469f722a229.oggvorbisstr::
-::res://Assets/Scenes/::1741712406
-banana.tscn::PackedScene::5420349929217449469::1741712406::0::1::::<><><>0<>0<><>::uid://bflcamuud14e8::::res://Assets/Scripts/banana.gd<>uid://l2xiedkdvnpc::::res://Assets/Sprites/Bananas.png<>uid://gyxdyeotqv8v::::res://Assets/Sprites/Collectable_04.wav
-main.tscn::PackedScene::7577641742889022922::1741712406::0::1::::<><><>0<>0<><>::uid://d21rfdrvflm62::::res://Assets/Sprites/Maps/1.jpg<>uid://ccboccn3pocfm::::res://Assets/Sprites/Maps/2.jpg<>uid://ch60y3w0djlqb::::res://Assets/Sprites/Maps/3.jpg<>uid://c78p3cup265o3::::res://Assets/Sprites/Maps/4.jpg<>uid://bpf4dpwfojmpj::::res://Assets/Sprites/TX Tileset Ground.png<>uid://c20o4o4du3tfq::::res://Assets/Sprites/Banana_icon.png<>uid://di0eobc6x8xsm::::res://Assets/Sprites/TX Village Props.png<>uid://c3kgg01yof5so::::res://Assets/Sprites/MonsterFriendFore.otf<>uid://cjhwmvl7eiswj::::res://Assets/Scenes/banana.tscn<>uid://dycr6wuf1dp2k::::res://Assets/Scenes/player.tscn<>uid://b1r068wojs3es::::res://Assets/Scenes/pause_menu.tscn<>uid://vy525m4bqwo3::::res://Assets/Journey Across the Blue.ogg<>uid://baffcndtjiho7::::res://Assets/Scripts/gamesound.gd
-main_menu.tscn::PackedScene::6420215649466040865::1741712406::0::1::::<><><>0<>0<><>::uid://bifmrxcevriyn::::res://Assets/Scripts/main_menu.gd<>uid://bf6bkh5aeqawa::::res://Assets/Sprites/MainMenu/nashi_jump_startmenu (1).png<>uid://c3kgg01yof5so::::res://Assets/Sprites/MonsterFriendFore.otf
-pause_menu.tscn::PackedScene::4248000092436287466::1741712406::0::1::::<><><>0<>0<><>::uid://c2jpp32mckrhm::::res://Assets/Scripts/pause_menu.gd<>uid://c3kgg01yof5so::::res://Assets/Sprites/MonsterFriendFore.otf
-player.tscn::PackedScene::8849011789060131124::1741712406::0::1::::<><><>0<>0<><>::uid://b5haxlxohf1jf::::res://Assets/Scripts/player.gd<>uid://db0oxigwn4v6v::::res://Assets/Sprites/PlayerAnim/Idle.png<>uid://c2aijho04jjlb::::res://Assets/Sprites/PlayerAnim/Jump.png<>uid://cyuvtrla54a67::::res://Assets/Sprites/PlayerAnim/Run.png<>uid://bdnf5hdn2mgkd::::res://Assets/Sprites/Jump_20.wav
-::res://Assets/Scripts/::1741648405
+::res://Assets/Scenes/::1742268660
+banana.tscn::PackedScene::5420349929217449469::1742268660::0::1::::<><><>0<>0<><>::uid://bflcamuud14e8::::res://Assets/Scripts/banana.gd<>uid://l2xiedkdvnpc::::res://Assets/Sprites/Bananas.png<>uid://gyxdyeotqv8v::::res://Assets/Sprites/Collectable_04.wav
+main.tscn::PackedScene::7577641742889022922::1742268660::0::1::::<><><>0<>0<><>::uid://d21rfdrvflm62::::res://Assets/Sprites/Maps/1.jpg<>uid://ccboccn3pocfm::::res://Assets/Sprites/Maps/2.jpg<>uid://ch60y3w0djlqb::::res://Assets/Sprites/Maps/3.jpg<>uid://c78p3cup265o3::::res://Assets/Sprites/Maps/4.jpg<>uid://bpf4dpwfojmpj::::res://Assets/Sprites/TX Tileset Ground.png<>uid://c20o4o4du3tfq::::res://Assets/Sprites/Banana_icon.png<>uid://di0eobc6x8xsm::::res://Assets/Sprites/TX Village Props.png<>uid://c3kgg01yof5so::::res://Assets/Sprites/MonsterFriendFore.otf<>uid://cjhwmvl7eiswj::::res://Assets/Scenes/banana.tscn<>uid://dycr6wuf1dp2k::::res://Assets/Scenes/player.tscn<>uid://b1r068wojs3es::::res://Assets/Scenes/pause_menu.tscn<>uid://vy525m4bqwo3::::res://Assets/Journey Across the Blue.ogg<>uid://baffcndtjiho7::::res://Assets/Scripts/gamesound.gd
+main_menu.tscn::PackedScene::6420215649466040865::1742268660::0::1::::<><><>0<>0<><>::uid://bifmrxcevriyn::::res://Assets/Scripts/main_menu.gd<>uid://bf6bkh5aeqawa::::res://Assets/Sprites/MainMenu/nashi_jump_startmenu (1).png<>uid://c3kgg01yof5so::::res://Assets/Sprites/MonsterFriendFore.otf
+pause_menu.tscn::PackedScene::4248000092436287466::1742268660::0::1::::<><><>0<>0<><>::uid://c2jpp32mckrhm::::res://Assets/Scripts/pause_menu.gd<>uid://c3kgg01yof5so::::res://Assets/Sprites/MonsterFriendFore.otf
+player.tscn::PackedScene::8849011789060131124::1742268660::0::1::::<><><>0<>0<><>::uid://b5haxlxohf1jf::::res://Assets/Scripts/player.gd<>uid://db0oxigwn4v6v::::res://Assets/Sprites/PlayerAnim/Idle.png<>uid://c2aijho04jjlb::::res://Assets/Sprites/PlayerAnim/Jump.png<>uid://cyuvtrla54a67::::res://Assets/Sprites/PlayerAnim/Run.png<>uid://bdnf5hdn2mgkd::::res://Assets/Sprites/Jump_20.wav
+::res://Assets/Scripts/::1742237945
 banana.gd::GDScript/GDScript::2760195153253516573::1741295186::0::1::::<>Area2D<><>0<>0<><>::
 gamesound.gd::GDScript/GDScript::2397050417328630280::1741648405::0::1::::<>AudioStreamPlayer<><>0<>0<><>::
 main_menu.gd::GDScript/GDScript::2959013495314384949::1741642358::0::1::::<>Control<><>0<>0<><>::
 pause_menu.gd::GDScript/GDScript::6687458600111518830::1741642356::0::1::::<>Control<><>0<>0<><>::
-player.gd::GDScript/GDScript::4506578324305333943::1741631762::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://Assets/Sprites/::1741295186
+player.gd::GDScript::4506578324305333943::1742237945::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://Assets/Sprites/::1742234795
 Bananas.png::CompressedTexture2D/CompressedTexture2D::829226471749856012::1741295186::1741295186::1::::<><><>0<>0<>eec10be502f30d6b739003d7aced033f<>res://.godot/imported/Bananas.png-ee175b0fd7168ec5140b77076af426a7.ctex::
 Banana_icon.png::CompressedTexture2D/CompressedTexture2D::6720452195676929094::1741295186::1741295186::1::::<><><>0<>0<>e69bbf7301cd9f850510dedf96d75665<>res://.godot/imported/Banana_icon.png-74b5af4db18ea1a90090fc2f331e9d2f.ctex::
 Collectable_04.wav::AudioStreamWAV/AudioStreamWAV::472081243542734011::1741295186::1741295186::1::::<><><>0<>0<>7711f9c6851e493f50e02863c804ac9c<>res://.godot/imported/Collectable_04.wav-e530f78fc0340d7b3567b7a43ef369fe.sample::
@@ -35,3 +35,7 @@ nashi_jump_startmenu (1).png::CompressedTexture2D/CompressedTexture2D::280143960
 Idle.png::CompressedTexture2D/CompressedTexture2D::7281951880201117567::1741295186::1741295186::1::::<><><>0<>0<>0211ecc1ed8b8dd9c27912673929df1c<>res://.godot/imported/Idle.png-8ceadf5ac7cbc9b577160fbb1cdd6ba7.ctex::
 Jump.png::CompressedTexture2D/CompressedTexture2D::6668442344166068947::1741295186::1741295186::1::::<><><>0<>0<>2d1b95cb6f81331a1016ef85bf99db19<>res://.godot/imported/Jump.png-8d5e6d7b35c5a04fc3a4be9c04ad8707.ctex::
 Run.png::CompressedTexture2D/CompressedTexture2D::6499971066643495622::1741295186::1741295186::1::::<><><>0<>0<>a1e00c38f69b16e972aac7f6c2406064<>res://.godot/imported/Run.png-b5176b3599955efc851cf53cbb3b3999.ctex::
+::res://Assets/Sprites/Player_Panda/::1742234812
+Idle.png::CompressedTexture2D/CompressedTexture2D::2676054789244228101::1690367312::1742234812::1::::<><><>0<>0<>3255ad52c74d00d6101491073256635b<>res://.godot/imported/Idle.png-87f123393a78661714ade8fdef2b05e6.ctex::
+JumpFallLand.png::CompressedTexture2D/CompressedTexture2D::2274989445599993369::1690367330::1742234812::1::::<><><>0<>0<>c042fe1a2cc2abda068d6b701aec4f1a<>res://.godot/imported/JumpFallLand.png-573f4397dec28ff5731ff7ce85f55a32.ctex::
+Walk.png::CompressedTexture2D/CompressedTexture2D::3865268164004260243::1690368328::1742234812::1::::<><><>0<>0<>12472f25edbff560d80fd2af9564ce9e<>res://.godot/imported/Walk.png-6db1a5f00fc2f2945ed409b33168c804.ctex::
