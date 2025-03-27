@@ -1,8 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://cxqaap5dhcl18"]
+[gd_scene load_steps=6 format=3 uid="uid://cxqaap5dhcl18"]
 
 [ext_resource type="Script" uid="uid://bifmrxcevriyn" path="res://Assets/Scripts/main_menu.gd" id="1_rohn0"]
 [ext_resource type="Texture2D" uid="uid://bf6bkh5aeqawa" path="res://Assets/Sprites/MainMenu/nashi_jump_startmenu (1).png" id="2_cbhea"]
 [ext_resource type="FontFile" uid="uid://c3kgg01yof5so" path="res://Assets/Sprites/MonsterFriendFore.otf" id="2_fsbqx"]
+[ext_resource type="Texture2D" uid="uid://by0k3kceradn7" path="res://Assets/Sprites/IconsMenu/Play.png" id="4_6qsvb"]
+[ext_resource type="Texture2D" uid="uid://bcubf3oo3wbk7" path="res://Assets/Sprites/IconsMenu/Close.png" id="5_fadmi"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -31,25 +33,23 @@ theme_override_font_sizes/normal_font_size = 45
 text = "Nashi Jungle Jump"
 horizontal_alignment = 1
 
-[node name="PlayButton" type="Button" parent="."]
+[node name="PlayButton" type="TextureButton" parent="."]
 layout_mode = 2
-offset_left = 412.0
+offset_left = 478.0
 offset_top = 284.0
-offset_right = 725.0
-offset_bottom = 331.0
-theme_override_fonts/font = ExtResource("2_fsbqx")
-theme_override_font_sizes/font_size = 38
-text = "Start"
+offset_right = 568.0
+offset_bottom = 374.0
+texture_normal = ExtResource("4_6qsvb")
+stretch_mode = 0
 
-[node name="ExitButton" type="Button" parent="."]
+[node name="ExitButton" type="TextureButton" parent="."]
 layout_mode = 2
-offset_left = 412.0
-offset_top = 347.0
-offset_right = 725.0
-offset_bottom = 394.0
-theme_override_fonts/font = ExtResource("2_fsbqx")
-theme_override_font_sizes/font_size = 38
-text = "Quit"
+offset_left = 593.0
+offset_top = 284.0
+offset_right = 683.0
+offset_bottom = 374.0
+texture_normal = ExtResource("5_fadmi")
+stretch_mode = 0
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 layout_mode = 0
@@ -59,4 +59,4 @@ offset_right = 1208.0
 offset_bottom = 633.0
 theme_override_fonts/normal_font = ExtResource("2_fsbqx")
 theme_override_font_sizes/normal_font_size = 24
-text = "v0.4.1"
+text = "v0.6.0"

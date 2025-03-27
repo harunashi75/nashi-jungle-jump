@@ -128,7 +128,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"bananas",
-"speed": 24.0
+"speed": 20.0
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_8blqr"]
@@ -143,6 +143,8 @@ position = Vector2(1.19209e-07, 1)
 scale = Vector2(1.32031, 1.21875)
 sprite_frames = SubResource("SpriteFrames_ntcuy")
 animation = &"bananas"
+frame = 8
+frame_progress = 0.2663
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_8blqr")
