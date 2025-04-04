@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cc6xqdro6egiy"
-path="res://.godot/imported/Game-Background_1.png-e57ca9b3f36f9b8e6d07d1f0f83666d0.ctex"
+uid="uid://c5e30s3s5k3gc"
+path="res://.godot/imported/Kiwi.png-7ed44b750f5f93852135edc54c266253.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Maps/Game-Background_1.png"
-dest_files=["res://.godot/imported/Game-Background_1.png-e57ca9b3f36f9b8e6d07d1f0f83666d0.ctex"]
+source_file="res://Assets/Sprites/Fruits/Kiwi.png"
+dest_files=["res://.godot/imported/Kiwi.png-7ed44b750f5f93852135edc54c266253.ctex"]
 
 [params]
 

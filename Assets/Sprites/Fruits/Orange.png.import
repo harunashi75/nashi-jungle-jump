@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br6ht6ub6u5kj"
-path="res://.godot/imported/Live Bar.png-b2abeda796f442955c6624895c8e1671.ctex"
+uid="uid://g38nhuxe4p62"
+path="res://.godot/imported/Orange.png-bd803efacb3b1d86f327c66b6f5371be.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/IconsMenu/Live Bar.png"
-dest_files=["res://.godot/imported/Live Bar.png-b2abeda796f442955c6624895c8e1671.ctex"]
+source_file="res://Assets/Sprites/Fruits/Orange.png"
+dest_files=["res://.godot/imported/Orange.png-bd803efacb3b1d86f327c66b6f5371be.ctex"]
 
 [params]
 

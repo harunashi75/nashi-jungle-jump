@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
-@export var speed: int = 50  # Vitesse de déplacement
-@export var patrol_distance: int = 55  # Distance de patrouille
+@export var speed: int = 60  # Vitesse de déplacement
+@export var patrol_distance: int = 50  # Distance de patrouille
 @export var damage: int = 1  # Dégâts infligés au joueur
 
 var direction = 1  # 1 = droite, -1 = gauche

@@ -7,11 +7,13 @@ var max_jumps = 1
 var jumps_left = max_jumps
 var max_health = 5
 var current_health = max_health
+var collected_fruits = 0  # Compteur de fruits
 
 # Références aux nœuds
 @onready var sprite = $AnimatedSprite2D
 @onready var jump_sound = $JumpSound
 @onready var health_bar = $"/root/Main/Game/UI/HealthBar"
+@onready var hit_sound = $HitSound
 
 func _physics_process(delta):
 	_apply_gravity(delta)
@@ -65,11 +67,27 @@ func _input(event):
 		else:
 			print("Erreur: Main introuvable!")
 
+func collect_fruit(value: int):
+	collected_fruits += value
+	var game_manager = get_node("/root/Main")
+	game_manager.fruit_count += value
+	game_manager.update_fruit_counter()
+	print("Fruits collectés :", collected_fruits)
+
 func take_damage(amount):
 	current_health -= amount
-	print("Touché! Vies restantes :", current_health)
+	print("Vies restantes :", current_health)
 
-	# Met à jour la barre de vie
+	sprite.play("hit")  # Joue l'animation "hit"
+	
+	if not hit_sound.playing:
+			hit_sound.play()  # Son de dégât
+	
+	# Empêche les autres animations de s’exécuter pendant un court moment
+	set_physics_process(false)
+	await get_tree().create_timer(0.3).timeout
+	set_physics_process(true)
+
 	health_bar.value = current_health
 
 	if current_health <= 0:

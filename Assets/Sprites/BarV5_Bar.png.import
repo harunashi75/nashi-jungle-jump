@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cc6xqdro6egiy"
-path="res://.godot/imported/Game-Background_1.png-e57ca9b3f36f9b8e6d07d1f0f83666d0.ctex"
+uid="uid://bla6a5c7qi85l"
+path="res://.godot/imported/BarV5_Bar.png-2aa45cbc77f7fdaac07035bf27c75cfd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Maps/Game-Background_1.png"
-dest_files=["res://.godot/imported/Game-Background_1.png-e57ca9b3f36f9b8e6d07d1f0f83666d0.ctex"]
+source_file="res://Assets/Sprites/BarV5_Bar.png"
+dest_files=["res://.godot/imported/BarV5_Bar.png-2aa45cbc77f7fdaac07035bf27c75cfd.ctex"]
 
 [params]
 

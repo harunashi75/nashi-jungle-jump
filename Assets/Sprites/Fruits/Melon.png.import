@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cc6xqdro6egiy"
-path="res://.godot/imported/Game-Background_1.png-e57ca9b3f36f9b8e6d07d1f0f83666d0.ctex"
+uid="uid://bu0e38qrg0mhb"
+path="res://.godot/imported/Melon.png-2990314b29b9aa97157dd4b6ffc03ceb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Maps/Game-Background_1.png"
-dest_files=["res://.godot/imported/Game-Background_1.png-e57ca9b3f36f9b8e6d07d1f0f83666d0.ctex"]
+source_file="res://Assets/Sprites/Fruits/Melon.png"
+dest_files=["res://.godot/imported/Melon.png-2990314b29b9aa97157dd4b6ffc03ceb.ctex"]
 
 [params]
 

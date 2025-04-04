@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cc6xqdro6egiy"
-path="res://.godot/imported/Game-Background_1.png-e57ca9b3f36f9b8e6d07d1f0f83666d0.ctex"
+uid="uid://bqqto4iae8ai7"
+path="res://.godot/imported/Hit (32x32).png-4f71d04c8e48d1efa813fb52bc2e4a1e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Maps/Game-Background_1.png"
-dest_files=["res://.godot/imported/Game-Background_1.png-e57ca9b3f36f9b8e6d07d1f0f83666d0.ctex"]
+source_file="res://Assets/Sprites/Player/Hit (32x32).png"
+dest_files=["res://.godot/imported/Hit (32x32).png-4f71d04c8e48d1efa813fb52bc2e4a1e.ctex"]
 
 [params]
 

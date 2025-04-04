@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bpmrlrr26j0ic"
-path="res://.godot/imported/Big Heart Idle (18x14).png-e87da5693bdbbe179bb27b152e923f7a.ctex"
+uid="uid://h7rtv2177w6l"
+path="res://.godot/imported/Game-Background_3.png-15e2444d2450f15deecad903c33bfbd7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/IconsMenu/Big Heart Idle (18x14).png"
-dest_files=["res://.godot/imported/Big Heart Idle (18x14).png-e87da5693bdbbe179bb27b152e923f7a.ctex"]
+source_file="res://Assets/Sprites/Maps/Game-Background_3.png"
+dest_files=["res://.godot/imported/Game-Background_3.png-15e2444d2450f15deecad903c33bfbd7.ctex"]
 
 [params]
 
