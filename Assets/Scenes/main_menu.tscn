@@ -1,10 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://cxqaap5dhcl18"]
+[gd_scene load_steps=5 format=3 uid="uid://cxqaap5dhcl18"]
 
 [ext_resource type="Script" uid="uid://bifmrxcevriyn" path="res://Assets/Scripts/main_menu.gd" id="1_rohn0"]
-[ext_resource type="Texture2D" uid="uid://bf6bkh5aeqawa" path="res://Assets/Sprites/MainMenu/nashi_jump_startmenu (1).png" id="2_cbhea"]
-[ext_resource type="FontFile" uid="uid://c3kgg01yof5so" path="res://Assets/Sprites/MonsterFriendFore.otf" id="2_fsbqx"]
-[ext_resource type="Texture2D" uid="uid://by0k3kceradn7" path="res://Assets/Sprites/IconsMenu/Play.png" id="4_6qsvb"]
-[ext_resource type="Texture2D" uid="uid://bcubf3oo3wbk7" path="res://Assets/Sprites/IconsMenu/Close.png" id="5_fadmi"]
+[ext_resource type="Texture2D" uid="uid://bu6c0uk5ptsh5" path="res://Assets/Sprites/MainMenu/Startmenu-Background.png" id="2_6qsvb"]
+[ext_resource type="FontFile" uid="uid://bclc2bjxfmsa2" path="res://Assets/Sprites/Squares.ttf" id="3_tanm1"]
+[ext_resource type="FontFile" uid="uid://b6aleuycxxjyr" path="res://Assets/Sprites/Serati-Regular.otf" id="4_6qsvb"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -19,44 +18,46 @@ script = ExtResource("1_rohn0")
 layout_mode = 0
 offset_right = 1153.0
 offset_bottom = 649.0
-texture = ExtResource("2_cbhea")
+texture = ExtResource("2_6qsvb")
 expand_mode = 1
 
 [node name="GameName" type="RichTextLabel" parent="."]
 layout_mode = 0
-offset_left = 192.0
+offset_left = 57.0
 offset_top = 154.0
-offset_right = 963.0
-offset_bottom = 275.0
-theme_override_fonts/normal_font = ExtResource("2_fsbqx")
+offset_right = 686.0
+offset_bottom = 514.0
+theme_override_fonts/normal_font = ExtResource("3_tanm1")
 theme_override_font_sizes/normal_font_size = 45
-text = "Nashi Jungle Jump"
+text = "Nashi Jump"
 horizontal_alignment = 1
 
-[node name="PlayButton" type="TextureButton" parent="."]
+[node name="PlayButton" type="Button" parent="."]
 layout_mode = 2
-offset_left = 478.0
-offset_top = 284.0
-offset_right = 568.0
-offset_bottom = 374.0
-texture_normal = ExtResource("4_6qsvb")
-stretch_mode = 0
+offset_left = 723.0
+offset_top = 218.0
+offset_right = 1046.0
+offset_bottom = 308.0
+theme_override_fonts/font = ExtResource("4_6qsvb")
+theme_override_font_sizes/font_size = 50
+text = "Start"
 
-[node name="ExitButton" type="TextureButton" parent="."]
+[node name="ExitButton" type="Button" parent="."]
 layout_mode = 2
-offset_left = 593.0
-offset_top = 284.0
-offset_right = 683.0
-offset_bottom = 374.0
-texture_normal = ExtResource("5_fadmi")
-stretch_mode = 0
+offset_left = 722.0
+offset_top = 335.0
+offset_right = 1045.0
+offset_bottom = 425.0
+theme_override_fonts/font = ExtResource("4_6qsvb")
+theme_override_font_sizes/font_size = 50
+text = "Quit"
 
-[node name="RichTextLabel" type="RichTextLabel" parent="."]
+[node name="GameVersion" type="RichTextLabel" parent="."]
 layout_mode = 0
-offset_left = 1006.0
-offset_top = 600.0
-offset_right = 1208.0
-offset_bottom = 633.0
-theme_override_fonts/normal_font = ExtResource("2_fsbqx")
-theme_override_font_sizes/normal_font_size = 24
+offset_left = 24.0
+offset_top = 599.0
+offset_right = 137.0
+offset_bottom = 632.0
+theme_override_fonts/normal_font = ExtResource("4_6qsvb")
+theme_override_font_sizes/normal_font_size = 25
 text = "v0.6.0"

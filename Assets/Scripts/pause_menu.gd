@@ -38,7 +38,7 @@ func load_volume():
 
 func _process(_delta):
 	var viewport_size = get_viewport_rect().size
-	position = get_viewport().get_camera_2d().global_position - viewport_size / 2
+	position = (viewport_size - size) / 2
 
 func toggle_pause():
 	if pause_menu.visible:
@@ -56,4 +56,4 @@ func _on_quit_button_pressed():
 
 func _on_main_menu_button_pressed():
 	get_tree().paused = false  # Désactive la pause avant de changer de scène
-	get_tree().change_scene_to_file("res://Assets/Scenes/main_menu.tscn")  # Remplace par le bon chemin
+	get_tree().change_scene_to_file("res://Assets/Scenes/main_menu.tscn")

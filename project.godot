@@ -60,7 +60,8 @@ pause_menu={
 
 2d_physics/layer_1="player"
 2d_physics/layer_2="tilemap"
-2d_physics/layer_3="banana"
+2d_physics/layer_3="teleporter"
+2d_physics/layer_4="enemy"
 
 [rendering]
 

@@ -17,7 +17,7 @@ func _on_play_pressed():
 	print("Play button pressed!")  # Vérifie si ça s'affiche dans la console
 	var err = get_tree().change_scene_to_file("res://Assets/Scenes/main.tscn")
 	if err != OK:
-		print("Erreur de chargement de la scène du jeu ! Vérifie le chemin.")
+		print("Erreur de chargement de la scène du jeu! Vérifie le chemin.")
 
 func _on_quit_pressed():
 	print("Quit button pressed!")  # Vérifie si ça s'affiche dans la console
