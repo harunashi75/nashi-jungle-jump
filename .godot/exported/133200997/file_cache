@@ -1,6 +1,5 @@
-res://Assets/Scenes/player.tscn::b1afd312bd974984713c5519a5bb2889::1743739157::res://.godot/exported/133200997/export-9601e669bb72ca6c9a318a4e4b8c44f2-player.scn
-res://Assets/Scenes/main_menu.tscn::dab3d32a002e730aca1074ae349a89a5::1743739157::res://.godot/exported/133200997/export-af9515579ca2712481c0a4a759d37dfa-main_menu.scn
-res://Assets/Scenes/main.tscn::a76382539ccd0841fd86fdd1e795fc6b::1743739494::res://.godot/exported/133200997/export-8b8120442f2450b0bc73d4fa0ff4705a-main.scn
-res://Assets/Scenes/pause_menu.tscn::7b8531ab371bd08150e179465b3a0d81::1743739157::res://.godot/exported/133200997/export-634e3944235b1dc028c25a12c76e6d6c-pause_menu.scn
-res://Assets/Scenes/teleporter.tscn::e6f4d5adf29d12f585da37b2662a8810::1743739157::res://.godot/exported/133200997/export-1d2bff50d98af379eb308e8eb9257efc-teleporter.scn
-res://Assets/Scenes/enemy.tscn::dc66ca48bc4ef8327b84b3d3f2619709::1743739157::res://.godot/exported/133200997/export-e3511e65a89291391d8baa176ee7510d-enemy.scn
+res://Assets/Scenes/player.tscn::c1a8270fd72cee893211d60716f5d065::1743920084::res://.godot/exported/133200997/export-9601e669bb72ca6c9a318a4e4b8c44f2-player.scn
+res://Assets/Scenes/main_menu.tscn::5c80f02525e03051e3a4a7a1fa905301::1743920084::res://.godot/exported/133200997/export-af9515579ca2712481c0a4a759d37dfa-main_menu.scn
+res://Assets/Scenes/main.tscn::fef7f065f130f75326a0112066d6662b::1743920084::res://.godot/exported/133200997/export-8b8120442f2450b0bc73d4fa0ff4705a-main.scn
+res://Assets/Scenes/pause_menu.tscn::cacbddd9520e495155521b7917435f7e::1743920084::res://.godot/exported/133200997/export-634e3944235b1dc028c25a12c76e6d6c-pause_menu.scn
+res://Assets/Scenes/teleporter.tscn::e6f4d5adf29d12f585da37b2662a8810::1743920084::res://.godot/exported/133200997/export-1d2bff50d98af379eb308e8eb9257efc-teleporter.scn

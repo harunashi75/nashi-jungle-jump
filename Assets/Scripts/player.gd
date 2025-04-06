@@ -5,9 +5,8 @@ var gravity = 980
 var jump_force = -350
 var max_jumps = 1
 var jumps_left = max_jumps
-var max_health = 5
+var max_health = 10
 var current_health = max_health
-var collected_fruits = 0  # Compteur de fruits
 
 # Références aux nœuds
 @onready var sprite = $AnimatedSprite2D
@@ -66,13 +65,6 @@ func _input(event):
 			game_manager.toggle_pause()
 		else:
 			print("Erreur: Main introuvable!")
-
-func collect_fruit(value: int):
-	collected_fruits += value
-	var game_manager = get_node("/root/Main")
-	game_manager.fruit_count += value
-	game_manager.update_fruit_counter()
-	print("Fruits collectés :", collected_fruits)
 
 func take_damage(amount):
 	current_health -= amount

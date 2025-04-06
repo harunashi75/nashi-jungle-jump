@@ -58,7 +58,7 @@ offset_right = 1032.0
 offset_bottom = 366.0
 theme_override_fonts/font = ExtResource("3_kvkuv")
 theme_override_font_sizes/font_size = 50
-text = "Main Menu"
+text = "Start Menu"
 
 [node name="QuitButton" type="Button" parent="."]
 layout_mode = 2

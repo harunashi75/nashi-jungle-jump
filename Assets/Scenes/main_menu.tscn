@@ -60,4 +60,4 @@ offset_right = 137.0
 offset_bottom = 632.0
 theme_override_fonts/normal_font = ExtResource("4_6qsvb")
 theme_override_font_sizes/normal_font_size = 25
-text = "v0.6.0"
+text = "v0.8.0"
