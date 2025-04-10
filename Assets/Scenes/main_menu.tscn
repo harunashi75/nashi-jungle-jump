@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://cxqaap5dhcl18"]
 
 [ext_resource type="Script" uid="uid://bifmrxcevriyn" path="res://Assets/Scripts/main_menu.gd" id="1_rohn0"]
-[ext_resource type="Texture2D" uid="uid://bu6c0uk5ptsh5" path="res://Assets/Sprites/MainMenu/Startmenu-Background.png" id="2_6qsvb"]
+[ext_resource type="Texture2D" uid="uid://bu6c0uk5ptsh5" path="res://Assets/Sprites/StartMenu/Startmenu-Background.png" id="2_6qsvb"]
 [ext_resource type="FontFile" uid="uid://bclc2bjxfmsa2" path="res://Assets/Sprites/Squares.ttf" id="3_tanm1"]
 [ext_resource type="FontFile" uid="uid://b6aleuycxxjyr" path="res://Assets/Sprites/Serati-Regular.otf" id="4_6qsvb"]
 
@@ -54,10 +54,10 @@ text = "Quit"
 
 [node name="GameVersion" type="RichTextLabel" parent="."]
 layout_mode = 0
-offset_left = 24.0
-offset_top = 599.0
-offset_right = 137.0
-offset_bottom = 632.0
+offset_left = 1058.0
+offset_top = 602.0
+offset_right = 1139.0
+offset_bottom = 635.0
 theme_override_fonts/normal_font = ExtResource("4_6qsvb")
 theme_override_font_sizes/normal_font_size = 25
-text = "v0.8.0"
+text = "v1.0.0"

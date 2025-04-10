@@ -1,5 +1,7 @@
-/home/haru/Documents/Nashi Jungle Jump-linux_version
 /home/haru/Documents/Nashi Jungle Jump-windows_version
+/home/haru/Documents/Nashi Jungle Jump-linux_version
+res://Assets/Sprites/Maps
+res://Assets/Sprites/Enemies/Radish
 res://Assets/Sprites/Traps/Saw
 res://Assets/Sprites
 res://Assets/Sprites/Enemies/BlueBird
@@ -8,7 +10,6 @@ res://Assets/Sprites/Enemies/Bat
 res://Assets/Sprites/Enemies/Trunk
 res://Assets/Sprites/Enemies/FatBird
 res://Assets/Sprites/Traps/Spike Head
-res://Assets/Sprites/Maps
 res://Assets/Sprites/Enemies/Rocks
 res://Assets/Sprites/Enemies/Mushroom
 res://Assets/Sprites/Enemies/Chicken

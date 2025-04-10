@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-config/name="Nashi Jungle Jump"
-config/version="v0.8.0"
+config/name="Nashi Jump"
+config/version="v1.0.0"
 run/main_scene="res://Assets/Scenes/main_menu.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="uid://dghn331akv4ur"

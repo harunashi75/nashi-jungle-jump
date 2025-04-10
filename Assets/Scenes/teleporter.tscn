@@ -82,7 +82,7 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_qqhik"]
-radius = 8.0
+radius = 3.0
 height = 46.0
 
 [node name="Teleporter" type="Area2D"]
