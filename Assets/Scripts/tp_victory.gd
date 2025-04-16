@@ -1,6 +1,8 @@
 extends Area2D
 
 @export var teleport_position: Vector2  # Position où téléporter le joueur
+@onready var victory_sound = $VictorySound  # Ton nœud audio
+@onready var player = get_node("/root/Main/Game/Flags/TP-Victory")
 @onready var anim = $AnimatedSprite2D
 
 func _ready():
@@ -8,6 +10,6 @@ func _ready():
 	body_entered.connect(_on_body_entered)
 
 func _on_body_entered(body):
-	if body is CharacterBody2D:  # Vérifie si c'est le joueur
-		print("Téléportation!")
-		body.global_position = teleport_position  # Déplace le joueur
+	if body.name == "Player":
+		body.global_position = teleport_position
+		victory_sound.play()

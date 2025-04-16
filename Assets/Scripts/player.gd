@@ -5,7 +5,7 @@ var gravity = 980
 var jump_force = -350
 var max_jumps = 1
 var jumps_left = max_jumps
-var max_health = 10
+var max_health = 20
 var current_health = max_health
 
 # Références aux nœuds

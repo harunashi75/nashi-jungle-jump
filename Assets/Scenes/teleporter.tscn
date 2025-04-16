@@ -1,7 +1,8 @@
-[gd_scene load_steps=15 format=3 uid="uid://bvs030krrelxc"]
+[gd_scene load_steps=16 format=3 uid="uid://bvs030krrelxc"]
 
 [ext_resource type="Script" uid="uid://ccpu806yaiy8n" path="res://Assets/Scripts/teleporter.gd" id="1_1qtmo"]
 [ext_resource type="Texture2D" uid="uid://cxo1smd0qywva" path="res://Assets/Sprites/Checkpoint (Flag Idle)(64x64).png" id="1_c5wi4"]
+[ext_resource type="AudioStream" uid="uid://dl3r1opn436ln" path="res://Assets/level-passed-142971.ogg" id="3_o1j0o"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1qtmo"]
 atlas = ExtResource("1_c5wi4")
@@ -98,3 +99,6 @@ frame_progress = 0.942246
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -23)
 shape = SubResource("CapsuleShape2D_qqhik")
+
+[node name="TeleportSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_o1j0o")

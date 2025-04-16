@@ -262,7 +262,7 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_5d67n"]
-height = 34.0
+height = 28.0
 
 [node name="Player" type="CharacterBody2D" groups=["player"]]
 collision_mask = 30
@@ -275,7 +275,7 @@ sprite_frames = SubResource("SpriteFrames_3luqq")
 animation = &"idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(10, -17)
+position = Vector2(10, -14)
 shape = SubResource("CapsuleShape2D_5d67n")
 
 [node name="Camera2D" type="Camera2D" parent="."]
