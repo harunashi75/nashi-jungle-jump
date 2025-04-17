@@ -3,14 +3,14 @@ extends Control
 @onready var pause_menu = $"."  # Référence au menu pause
 @onready var resume_button = $ResumeButton  # Chemin correct vers le bouton Resume
 @onready var quit_button = $QuitButton  # Chemin correct vers le bouton Quit
-@onready var main_menu_button = $MainMenuButton  # Chemin correct vers le bouton Main Menu
+@onready var start_menu_button = $StartMenuButton  # Chemin correct vers le bouton Main Menu
 @onready var volume_slider = $VolumeSlider
 
 func _ready():
 	print("PauseMenu visible:", pause_menu.visible)
 	resume_button.pressed.connect(_on_resume_button_pressed)
 	quit_button.pressed.connect(_on_quit_button_pressed)
-	main_menu_button.pressed.connect(_on_main_menu_button_pressed)
+	start_menu_button.pressed.connect(_on_start_menu_button_pressed)
 
 	# Charger le volume sauvegardé
 	var saved_volume = load_volume()
@@ -54,6 +54,6 @@ func _on_resume_button_pressed():
 func _on_quit_button_pressed():
 	get_tree().quit()  # Quitte le jeu
 
-func _on_main_menu_button_pressed():
+func _on_start_menu_button_pressed():
 	get_tree().paused = false  # Désactive la pause avant de changer de scène
-	get_tree().change_scene_to_file("res://Assets/Scenes/main_menu.tscn")
+	get_tree().change_scene_to_file("res://Assets/Scenes/start_menu.tscn")

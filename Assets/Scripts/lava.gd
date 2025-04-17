@@ -1,6 +1,6 @@
 extends Area2D
 
-@export var damage = 2
+@export var damage = 3
 
 @onready var sprite = $AnimatedSprite2D
 

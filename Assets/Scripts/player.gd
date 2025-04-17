@@ -5,7 +5,7 @@ var gravity = 980
 var jump_force = -350
 var max_jumps = 1
 var jumps_left = max_jumps
-var max_health = 20
+var max_health = 10
 var current_health = max_health
 
 # Références aux nœuds
@@ -90,3 +90,7 @@ func respawn():
 	current_health = max_health
 	health_bar.value = max_health
 	global_position = Vector2(0, 0)  # Revient au début
+
+func reset_health():
+	current_health = max_health
+	health_bar.value = max_health

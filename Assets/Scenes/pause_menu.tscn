@@ -50,7 +50,7 @@ theme_override_fonts/font = ExtResource("3_kvkuv")
 theme_override_font_sizes/font_size = 50
 text = "Resume"
 
-[node name="MainMenuButton" type="Button" parent="."]
+[node name="StartMenuButton" type="Button" parent="."]
 layout_mode = 2
 offset_left = 709.0
 offset_top = 276.0
