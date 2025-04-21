@@ -49,4 +49,4 @@ func _wait_and_switch():
 
 func _on_body_entered(body):
 	if body.name == "Player":
-		body.take_damage(3)
+		body.take_damage(1)

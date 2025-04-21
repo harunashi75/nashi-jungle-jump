@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://c2jpp32mckrhm" path="res://Assets/Scripts/pause_menu.gd" id="1_jbhf4"]
 [ext_resource type="FontFile" uid="uid://bclc2bjxfmsa2" path="res://Assets/Sprites/Squares.ttf" id="2_dadan"]
 [ext_resource type="FontFile" uid="uid://b6aleuycxxjyr" path="res://Assets/Sprites/Serati-Regular.otf" id="3_kvkuv"]
-[ext_resource type="Texture2D" uid="uid://b4xapx23jch0t" path="res://Assets/Sprites/IconsMenu/Volume.png" id="4_kvkuv"]
+[ext_resource type="Texture2D" uid="uid://b4xapx23jch0t" path="res://Assets/Sprites/Icons Menu/Volume.png" id="4_kvkuv"]
 
 [node name="PauseMenu" type="Control"]
 process_mode = 3
@@ -17,15 +17,9 @@ script = ExtResource("1_jbhf4")
 
 [node name="Panel" type="Panel" parent="."]
 layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -576.0
-offset_top = -324.0
-offset_right = 576.0
-offset_bottom = 324.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 

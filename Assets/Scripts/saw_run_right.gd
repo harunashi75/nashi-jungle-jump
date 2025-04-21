@@ -2,7 +2,7 @@ extends Area2D
 
 @export var speed: int = 80
 @export var patrol_distance: int = 50
-@export var damage: int = 3
+@export var damage: int = 1
 
 var direction = 1  # Commence vers la droite
 var start_position: Vector2

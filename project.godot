@@ -14,7 +14,7 @@ config/name="Nashi Jump"
 config/version="v1.0.0"
 run/main_scene="res://Assets/Scenes/start_menu.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="uid://bp0pmfifbjo2u"
+config/icon="uid://c7hswcig67vm8"
 
 [display]
 

@@ -6,8 +6,8 @@
 [ext_resource type="Texture2D" uid="uid://ci2nr8ib7i225" path="res://Assets/Sprites/Main Characters/Virtual Guy/Idle (32x32).png" id="4_ecf78"]
 [ext_resource type="Texture2D" uid="uid://baslnwvbxh87l" path="res://Assets/Sprites/Main Characters/Virtual Guy/Jump (32x32).png" id="5_vy5gb"]
 [ext_resource type="Texture2D" uid="uid://btcf1uu2g4tkm" path="res://Assets/Sprites/Main Characters/Virtual Guy/Run (32x32).png" id="6_rsrmw"]
-[ext_resource type="AudioStream" uid="uid://bbfj54csqfyr" path="res://Assets/Sprites/Jump2.wav" id="7_c3tg1"]
-[ext_resource type="AudioStream" uid="uid://c4o2rnk6f03uf" path="res://Assets/Sprites/Hit_Hurt2.wav" id="8_lerqx"]
+[ext_resource type="AudioStream" uid="uid://bbfj54csqfyr" path="res://Assets/Sprites/Main Characters/Jump2.wav" id="7_c3tg1"]
+[ext_resource type="AudioStream" uid="uid://c4o2rnk6f03uf" path="res://Assets/Sprites/Main Characters/Hit_Hurt2.wav" id="8_lerqx"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_o8kuu"]
 atlas = ExtResource("2_lerqx")
