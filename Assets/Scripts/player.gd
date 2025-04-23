@@ -3,9 +3,9 @@ extends CharacterBody2D
 # Variables de physique
 var gravity = 980
 var jump_force = -350
-var max_jumps = 1
-var jumps_left = max_jumps
-var max_health = 3
+var max_jumps = 1  # On passe à 2 sauts pour activer le double saut
+var jumps_left = 1  # On commence avec 1 saut (au sol)
+var max_health = 1
 var current_health = max_health
 
 # Références aux nœuds
@@ -29,53 +29,58 @@ func _apply_gravity(delta):
 func _handle_jump():
 	if Input.is_action_just_pressed("jump") and jumps_left > 0:
 		velocity.y = jump_force
-		jump_sound.play()  # Joue le son du saut
+		jump_sound.play()
+
+		if is_on_floor():
+			sprite.play("jump")  # Premier saut depuis le sol
+		else:
+			sprite.play("double_jump")  # Deuxième saut en l'air
+
 		jumps_left -= 1
-		sprite.play("jump")
 
 	if is_on_floor():
-		jumps_left = max_jumps  # Réinitialiser les sauts
+		jumps_left = max_jumps  # Recharger les deux sauts quand on touche le sol
 
 # Gérer le déplacement horizontal
 func _handle_movement():
 	var direction = Input.get_axis("move_left", "move_right")
 
 	if direction:
-		velocity.x = direction * 200  # Permet de bouger même en l'air
+		velocity.x = direction * 200
 		sprite.flip_h = (direction < 0)
 	else:
 		velocity.x = move_toward(velocity.x, 0, 20)
 
-	# Gérer les animations correctement
-	if not is_on_floor():  
-		if velocity.y < 0:
-			sprite.play("jump")  # Animation de saut
-		else:
+	# Animations en fonction de l’état
+	if not is_on_floor():
+		if velocity.y > 0:
 			sprite.play("fall")  # Animation de chute
+		# Ne rien faire ici, l’anim est gérée au moment du saut
 	else:
 		if direction:
 			sprite.play("run")
 		else:
 			sprite.play("idle")
 
+# Pause menu
 func _input(event):
-	if event.is_action_pressed("pause_menu"):  # Touche ESC
-		var game_manager = get_node("/root/Main")  
+	if event.is_action_pressed("pause_menu"):
+		var game_manager = get_node("/root/Main")
 		if game_manager:
 			game_manager.toggle_pause()
 		else:
 			print("Erreur: Main introuvable!")
 
+# Gestion des dégâts
 func take_damage(amount):
 	current_health -= amount
 	print("Vies restantes :", current_health)
 
-	sprite.play("hit")  # Joue l'animation "hit"
+	sprite.play("hit")
 	
 	if not hit_sound.playing:
-			hit_sound.play()  # Son de dégât
+		hit_sound.play()
 	
-	# Empêche les autres animations de s’exécuter pendant un court moment
 	set_physics_process(false)
 	await get_tree().create_timer(0.3).timeout
 	set_physics_process(true)
@@ -85,12 +90,14 @@ func take_damage(amount):
 	if current_health <= 0:
 		respawn()
 
+# Respawn
 func respawn():
 	print("Respawn du joueur...")
 	current_health = max_health
 	health_bar.value = max_health
-	global_position = Vector2(0, 0)  # Revient au début
+	global_position = Vector2(0, 0)
 
+# Remettre la vie au max
 func reset_health():
 	current_health = max_health
 	health_bar.value = max_health

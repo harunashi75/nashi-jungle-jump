@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://n6bj4i6327n0"
-path="res://.godot/imported/Run (30x38).png-ed278aa354cf7d008298ccf2bddac23d.ctex"
+uid="uid://gva5hnciqupl"
+path="res://.godot/imported/Idle 1 (44x26).png-5191a0c4fb5037213ea760fcaf088cf5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Enemies/Radish/Run (30x38).png"
-dest_files=["res://.godot/imported/Run (30x38).png-ed278aa354cf7d008298ccf2bddac23d.ctex"]
+source_file="res://Assets/Sprites/Enemies/Turtle/Idle 1 (44x26).png"
+dest_files=["res://.godot/imported/Idle 1 (44x26).png-5191a0c4fb5037213ea760fcaf088cf5.ctex"]
 
 [params]
 

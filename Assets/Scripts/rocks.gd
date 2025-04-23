@@ -1,6 +1,6 @@
 extends Area2D
 
-@export var speed: int = 80
+@export var speed: int = 100
 @export var patrol_distance: int = 50
 @export var damage: int = 1
 
@@ -20,7 +20,7 @@ func _process(delta):
 
 	if abs(global_position.x - start_position.x) >= patrol_distance:
 		direction *= -1
-		sprite.flip_h = (direction < 0)
+		sprite.flip_h = (direction > 0)
 
 func _on_body_entered(body):
 	if body.has_method("take_damage"):
