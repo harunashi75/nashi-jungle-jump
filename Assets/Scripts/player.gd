@@ -1,14 +1,18 @@
 extends CharacterBody2D
 
-# Variables de physique
+# Physique
 var gravity = 980
 var jump_force = -350
-var max_jumps = 1  # On passe à 2 sauts pour activer le double saut
-var jumps_left = 1  # On commence avec 1 saut (au sol)
+var max_jumps = 1
+var jumps_left = 2
 var max_health = 1
 var current_health = max_health
 
-# Références aux nœuds
+# Timer pour éviter de switch direct vers "fall"
+var just_jumped = false
+var jump_anim_timer = 0.15  # Durée pendant laquelle on bloque l'animation "fall"
+
+# Références
 @onready var sprite = $AnimatedSprite2D
 @onready var jump_sound = $JumpSound
 @onready var health_bar = $"/root/Main/Game/UI/HealthBar"
@@ -18,48 +22,54 @@ func _physics_process(delta):
 	_apply_gravity(delta)
 	_handle_jump()
 	_handle_movement()
+	_handle_animations(delta)
 	move_and_slide()
 
-# Appliquer la gravité
 func _apply_gravity(delta):
 	if not is_on_floor():
 		velocity.y += gravity * delta
 
-# Gérer les sauts
 func _handle_jump():
 	if Input.is_action_just_pressed("jump") and jumps_left > 0:
 		velocity.y = jump_force
 		jump_sound.play()
-
+		
 		if is_on_floor():
-			sprite.play("jump")  # Premier saut depuis le sol
+			sprite.play("jump")
 		else:
-			sprite.play("double_jump")  # Deuxième saut en l'air
-
+			sprite.play("double_jump")
+		
 		jumps_left -= 1
+		just_jumped = true
+		jump_anim_timer = 0.15
 
 	if is_on_floor():
-		jumps_left = max_jumps  # Recharger les deux sauts quand on touche le sol
+		jumps_left = max_jumps
 
-# Gérer le déplacement horizontal
 func _handle_movement():
 	var direction = Input.get_axis("move_left", "move_right")
 
 	if direction:
 		velocity.x = direction * 200
-		sprite.flip_h = (direction < 0)
+		sprite.flip_h = direction < 0
 	else:
 		velocity.x = move_toward(velocity.x, 0, 20)
 
-	# Animations en fonction de l’état
+func _handle_animations(delta):
+	if just_jumped:
+		jump_anim_timer -= delta
+		if jump_anim_timer <= 0:
+			just_jumped = false
+		return  # On bloque l'anim ici le temps du saut
+
 	if not is_on_floor():
-		if velocity.y > 0:
-			sprite.play("fall")  # Animation de chute
-		# Ne rien faire ici, l’anim est gérée au moment du saut
-	else:
-		if direction:
+		if velocity.y > 0 and sprite.animation != "fall":
+			sprite.play("fall")
+	elif velocity.x != 0:
+		if sprite.animation != "run":
 			sprite.play("run")
-		else:
+	else:
+		if sprite.animation != "idle":
 			sprite.play("idle")
 
 # Pause menu
